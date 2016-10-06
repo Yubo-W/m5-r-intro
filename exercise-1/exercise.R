@@ -5,7 +5,7 @@ hometown <- "Panzhihua"
 # Assign your name to the variable `my.name`
 my.name <- "Yubo Wang"
 # Assign your height to a variable `my.height`
-my.height <- "70"
+my.height <- 70.5 # inches
 # Create a variable `puppies` equal to the number of puppies you'd like to have
 puppies <- 1
 # Create a variable `puppy.price`, which is how expensive you think a puppy is
@@ -13,6 +13,6 @@ puppy.price <- 130
 # Create a variable `total.cost` that has the total cost of all of your puppies
 total.cost <- puppy.price * puppies
 # Create a boolean variable `too.expensive`, set to true if the cost is greater than $1,000
-too.expensive <- 1000 > total.cost
+too.expensive <- 1000 < total.cost
 # Create a variable `max.puppies`, which is the nuber of puppies you can afford for $1K.
 max.puppies <- 1000 / puppy.price
